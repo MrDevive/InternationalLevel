@@ -1,0 +1,336 @@
+# Основная конфигурация InternationalLevel
+
+show-exp-messages: true
+show-join-message: true
+
+# MySQL настройки
+mysql:
+  enabled: true
+  host: 127.0.1.31
+  port: 3306
+  database: international_minecraft_auth
+  username: root
+  password: root
+
+# Настройка опыта за мобов (min и max)
+exp:
+  mobs:
+    AXOLOTL:
+      min: 1
+      max: 3
+    ALLAY:
+      min: 1
+      max: 3
+    BAT:
+      min: 1
+      max: 3
+    BEE:
+      min: 2
+      max: 4
+    BLAZE:
+      min: 1
+      max: 3
+    CAMEL:
+      min: 2
+      max: 4
+    CAT:
+      min: 1
+      max: 3
+    CAVE_SPIDER:
+      min: 2
+      max: 5
+    CHICKEN:
+      min: 3
+      max: 6
+    COD:
+      min: 1
+      max: 3
+    COW:
+      min: 3
+      max: 6
+    CREEPER:
+      min: 4
+      max: 7
+    DOLPHIN:
+      min: 1
+      max: 3
+    DONKEY:
+      min: 1
+      max: 5
+    DROWNED:
+      min: 1
+      max: 9
+    ELDER_GUARDIAN:
+      min: 4
+      max: 12
+    ENDER_DRAGON:
+      min: 8
+      max: 30
+    ENDERMAN:
+      min: 3
+      max: 7
+    ENDERMITE:
+      min: 2
+      max: 8
+    EVOKER:
+      min: 4
+      max: 14
+    FOX:
+      min: 2
+      max: 4
+    FROG:
+      min: 2
+      max: 4
+    GHAST:
+      min: 2
+      max: 6
+    GIANT:
+      min: 2
+      max: 8
+    GUARDIAN:
+      min: 1
+      max: 14
+    HOGLIN:
+      min: 1
+      max: 7
+    HORSE:
+      min: 1
+      max: 4
+    HUSK:
+      min: 1
+      max: 4
+    ILLUSIONER:
+      min: 1
+      max: 5
+    IRON_GOLEM:
+      min: 1
+      max: 7
+    LLAMA:
+      min: 1
+      max: 4
+    MAGMA_CUBE:
+      min: 1
+      max: 8
+    MUSHROOM_COW:
+      min: 1
+      max: 7
+    MULE:
+      min: 1
+      max: 4
+    OCELOT:
+      min: 1
+      max: 4
+    PANDA:
+      min: 2
+      max: 8
+    PARROT:
+      min: 1
+      max: 2
+    PHANTOM:
+      min: 1
+      max: 10
+    PIG:
+      min: 4
+      max: 7
+    PIGLIN:
+      min: 1
+      max: 4
+    PIGLIN_BRUTE:
+      min: 2
+      max: 7
+    PILLAGER:
+      min: 3
+      max: 5
+    POLAR_BEAR:
+      min: 3
+      max: 6
+    PUFFERFISH:
+      min: 1
+      max: 4
+    RABBIT:
+      min: 1
+      max: 4
+    RAVAGER:
+      min: 1
+      max: 2
+    SALMON:
+      min: 1
+      max: 2
+    SHEEP:
+      min: 3
+      max: 7
+    SHULKER:
+      min: 1
+      max: 12
+    SILVERFISH:
+      min: 1
+      max: 6
+    SKELETON:
+      min: 2
+      max: 14
+    SKELETON_HORSE:
+      min: 1
+      max: 14
+    SLIME:
+      min: 1
+      max: 10
+    SNIFFER:
+      min: 1
+      max: 10
+    SNOWMAN:
+      min: 1
+      max: 5
+    SPIDER:
+      min: 4
+      max: 8
+    SQUID:
+      min: 1
+      max: 4
+    STRAY:
+      min: 1
+      max: 5
+    STRIDER:
+      min: 1
+      max: 7
+    TADPOLE:
+      min: 1
+      max: 5
+    TRADER_LLAMA:
+      min: 1
+      max: 5
+    TROPICAL_FISH:
+      min: 1
+      max: 4
+    TURTLE:
+      min: 1
+      max: 4
+    VEX:
+      min: 1
+      max: 9
+    VILLAGER:
+      min: 1
+      max: 16
+    VINDICATOR:
+      min: 1
+      max: 11
+    WANDERING_TRADER:
+      min: 1
+      max: 8
+    WITCH:
+      min: 1
+      max: 7
+    WITHER:
+      min: 1
+      max: 20
+    WITHER_SKELETON:
+      min: 1
+      max: 22
+    WOLF:
+      min: 1
+      max: 5
+    ZOGLIN:
+      min: 1
+      max: 7
+    ZOMBIE:
+      min: 1
+      max: 15
+    ZOMBIE_HORSE:
+      min: 1
+      max: 6
+    ZOMBIE_VILLAGER:
+      min: 1
+      max: 18
+    ZOMBIFIED_PIGLIN:
+      min: 1
+      max: 7
+
+  # Опыт за блоки
+  blocks:
+    STONE:
+      min: 1
+      max: 1
+    COBBLESTONE:
+      min: 1
+      max: 1
+    DIAMOND_ORE:
+      min: 20
+      max: 30
+
+  # Настройка опыта за рыбалку
+  fishing:
+    fish:
+      min: 3
+      max: 8
+    treasure:
+      min: 20
+      max: 50
+    treasure-items:
+      - "CHEST"
+      - "ENCHANTED_BOOK"
+      - "NAME_TAG"
+      - "SADDLE"
+
+  # Настройка опыта за время в игре (опыт начисляется каждые X секунд)
+  playtime:
+    interval-seconds: 60
+    min: 1
+    max: 5
+
+  # Настройка опыта за пройденное расстояние
+  distance:
+    interval-blocks: 100
+    min: 5
+    max: 15
+
+  # Настройка опыта за фермерство
+  farming:
+    default:
+      min: 2
+      max: 6
+    crops:
+      WHEAT:
+        min: 3
+        max: 7
+      CARROTS:
+        min: 3
+        max: 7
+      POTATOES:
+        min: 3
+        max: 7
+      BEETROOTS:
+        min: 3
+        max: 7
+      SWEET_BERRY_BUSH:
+        min: 2
+        max: 5
+      NETHER_WART:
+        min: 4
+        max: 8
+      SUGAR_CANE:
+        min: 2
+        max: 5
+      BAMBOO:
+        min: 2
+        max: 5
+      KELP_PLANT:
+        min: 1
+        max: 3
+      CACTUS:
+        min: 2
+        max: 5
+
+# Множители опыта по правам
+exp-multipliers:
+  internationallevel:
+    multiplier:
+      vip: 2.0
+      premium: 3.0
+      elite: 4.0
+
+# Множители опыта ветерана по правам
+veteran-multipliers:
+  internationallevel:
+    multiplier:
+      vip: 1.5
+      premium: 2.0
+      elite: 2.5

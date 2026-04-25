@@ -1,0 +1,53 @@
+# Настройки уровней
+
+levels:
+  1:
+    required-exp: 0
+    name: "&7Новичок"
+    suffix: "&7[&fНовичок&7]"
+    league: "&8Бронзовая лига"
+  2:
+    required-exp: 100
+    name: "&aПутешественник"
+    suffix: "&7[&aПутешественник&7]"
+    league: "&8Бронзовая лига"
+  3:
+    required-exp: 300
+    name: "&eИскатель"
+    suffix: "&7[&eИскатель&7]"
+    league: "&8Бронзовая лига"
+  4:
+    required-exp: 600
+    name: "&bВоин"
+    suffix: "&7[&bВоин&7]"
+    league: "&7Серебряная лига"
+  5:
+    required-exp: 1000
+    name: "&dВетеран"
+    suffix: "&7[&dВетеран&7]"
+    league: "&7Серебряная лига"
+  6:
+    required-exp: 1500
+    name: "&5Герой"
+    suffix: "&7[&5Герой&7]"
+    league: "&6Золотая лига"
+  7:
+    required-exp: 2100
+    name: "&6Легенда"
+    suffix: "&7[&6Легенда&7]"
+    league: "&6Золотая лига"
+  8:
+    required-exp: 2800
+    name: "&cМифический"
+    suffix: "&7[&cМифический&7]"
+    league: "&bПлатиновая лига"
+  9:
+    required-exp: 3600
+    name: "&4Божественный"
+    suffix: "&7[&4Божественный&7]"
+    league: "&bПлатиновая лига"
+  10:
+    required-exp: 4500
+    name: "&5&lМастер"
+    suffix: "&7[&5✦ Мастер ✦&7]"
+    league: "&dАлмазная лига"

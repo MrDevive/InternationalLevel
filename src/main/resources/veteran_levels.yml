@@ -1,0 +1,44 @@
+# Настройки уровней ветерана
+
+veteran-levels:
+  1:
+    required-exp: 1000
+    name: "&eВетеран I"
+    description: "&7Вы прошли долгий путь и стали ветераном!"
+    rewards:
+      - "give %player% diamond 5"
+      - "eco give %player% 1000"
+  2:
+    required-exp: 2500
+    name: "&6Ветеран II"
+    description: "&7Ваш опыт растет, вы становитесь сильнее!"
+    rewards:
+      - "give %player% diamond 10"
+      - "eco give %player% 2500"
+      - "give %player% netherite_ingot 1"
+  3:
+    required-exp: 5000
+    name: "&cВетеран III"
+    description: "&7Легендарный ветеран сервера!"
+    rewards:
+      - "give %player% diamond 20"
+      - "eco give %player% 5000"
+      - "give %player% netherite_ingot 3"
+      - "lp user %player% parent add veteran"
+  4:
+    required-exp: 10000
+    name: "&5Элитный ветеран"
+    description: "&7Элита среди ветеранов!"
+    rewards:
+      - "give %player% netherite_ingot 5"
+      - "eco give %player% 10000"
+      - "lp user %player% parent add elite"
+  5:
+    required-exp: 20000
+    name: "&d&lМастер-ветеран"
+    description: "&7Великий мастер, прошедший через всё!"
+    rewards:
+      - "give %player% netherite_ingot 10"
+      - "eco give %player% 25000"
+      - "lp user %player% parent add master"
+      - "title %player% title {\"text\":\"МАСТЕР-ВЕТЕРАН!\",\"color\":\"gold\"} subtitle {\"text\":\"Вы достигли вершины!\",\"color\":\"yellow\"}"

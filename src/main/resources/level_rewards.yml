@@ -1,0 +1,49 @@
+# Награды за уровни
+
+rewards:
+  2:
+    commands:
+      - "give %player% stone 64"
+      - "eco give %player% 100"
+    message: "&aВы получили награду за 2 уровень!"
+  3:
+    commands:
+      - "give %player% iron_ingot 32"
+      - "eco give %player% 250"
+    message: "&aВы получили награду за 3 уровень!"
+  4:
+    commands:
+      - "give %player% gold_ingot 16"
+      - "eco give %player% 500"
+    message: "&aВы получили награду за 4 уровень!"
+  5:
+    commands:
+      - "give %player% diamond 5"
+      - "eco give %player% 1000"
+    message: "&aВы получили награду за 5 уровень!"
+  6:
+    commands:
+      - "give %player% emerald 10"
+      - "eco give %player% 2500"
+    message: "&aВы получили награду за 6 уровень!"
+  7:
+    commands:
+      - "give %player% netherite_ingot 1"
+      - "eco give %player% 5000"
+    message: "&aВы получили награду за 7 уровень!"
+  8:
+    commands:
+      - "give %player% netherite_ingot 2"
+      - "eco give %player% 10000"
+    message: "&aВы получили награду за 8 уровень!"
+  9:
+    commands:
+      - "give %player% netherite_ingot 3"
+      - "eco give %player% 25000"
+    message: "&aВы получили награду за 9 уровень!"
+  10:
+    commands:
+      - "give %player% netherite_ingot 5"
+      - "eco give %player% 50000"
+      - "title %player% title {\"text\":\"МАСТЕР!\",\"color\":\"gold\"} subtitle {\"text\":\"Вы достигли 10 уровня!\",\"color\":\"yellow\"}"
+    message: "&6&lПОЗДРАВЛЯЕМ! &r&aВы достигли 10 уровня!"

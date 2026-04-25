@@ -1,0 +1,41 @@
+# Файл сообщений InternationalLevel
+
+only-player: "&cЭта команда может быть использована только игроком!"
+no-permission: "&cУ вас нет прав на выполнение этой команды!"
+player-not-found: "&cИгрок %player% не найден!"
+
+join-message: "&eВаш уровень: &f%level% &7(%level_name%)&e | Ветеран: &f%veteran_level%"
+
+levelup: "&6&lУРОВЕНЬ ПОВЫШЕН! &r&eВы достигли &f%level% &eуровня! (&f%level_name%&e)"
+
+exp-gain: "&a+%exp% опыта &7(%source%)"
+
+# Сообщения системы ветерана
+veteran:
+  info: |
+    &6&lИНФОРМАЦИЯ О ВЕТЕРАНЕ
+    &eУровень: &f%level% &7- &f%level_name%
+    &7%description%
+    &eОпыт: &f%exp% &7/ &f%exp_next%
+    &eПрогресс: &f%progress%% &7[&a%exp_to_next% опыта до следующего уровня&7]
+    &eМаксимальный уровень: &f%max_level%
+
+  levelup: |
+    &6&lУРОВЕНЬ ВЕТЕРАНА ПОВЫШЕН!
+    &eВы достигли &f%level% &eуровня ветерана! (&f%level_name%&e)
+    &7%description%
+
+  exp-gain: "&b+%exp% опыта ветерана &7(%source%)"
+
+admin:
+  usage: "&cИспользование: /leveladmin <игрок> <addxp|setlevel|setexp|addveteranxp|setveteranlevel|setveteranexp|resetveteran|reload> [значение]"
+  veteran-usage: "&cИспользование: /leveladmin <игрок> <addveteranxp|setveteranlevel|setveteranexp|resetveteran> [значение]"
+  invalid-number: "&cУкажите корректное число!"
+  xp-added: "&aВы добавили &e%value% &aопыта игроку &e%player%"
+  level-set: "&aВы установили &e%value% &aуровень игроку &e%player%"
+  exp-set: "&aВы установили &e%value% &aопыта игроку &e%player%"
+  veteran-xp-added: "&aВы добавили &e%value% &aопыта ветерана игроку &e%player%"
+  veteran-level-set: "&aВы установили &e%value% &aуровень ветерана игроку &e%player%"
+  veteran-exp-set: "&aВы установили &e%value% &aопыта ветерана игроку &e%player%"
+  veteran-reset: "&aВы сбросили прогресс ветерана игроку &e%player%"
+  reload-success: "&aПлагин перезагружен!"

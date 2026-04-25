@@ -1,0 +1,29 @@
+name: InternationalLevel
+version: 1.2.0
+main: com.example.internationallevel.InternationalLevel
+api-version: '1.21'
+author: Devive
+description: Система уровней с характеристиками, наградами и системой ветерана
+
+softdepend: [PlaceholderAPI]
+
+commands:
+  level:
+    description: Показать информацию о вашем уровне
+    usage: /<command>
+    aliases: [lvl]
+  leveladmin:
+    description: Административные команды уровней
+    usage: /<command> <игрок> <addxp|setlevel|setexp|addveteranxp|setveteranlevel|setveteranexp|resetveteran|migrate|reload> [значение]
+  veteran:
+    description: Показать информацию о вашем уровне ветерана
+    usage: /<command>
+    aliases: [vet]
+
+permissions:
+  internationallevel.admin:
+    description: Административные права
+    default: op
+  internationallevel.multiplier.*:
+    description: Все множители опыта
+    default: false
